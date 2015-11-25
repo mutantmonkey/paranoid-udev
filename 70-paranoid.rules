@@ -1,0 +1,2 @@
+SUBSYSTEM=="usb", ACTION=="add", RUN+="/usr/local/bin/paranoid-plug.sh"
+SUBSYSTEM=="pci", ACTION=="add", RUN+="/usr/local/bin/paranoid-plug.sh"
